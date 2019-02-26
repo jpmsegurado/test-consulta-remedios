@@ -5,5 +5,7 @@
 
   > .product-wrapper {
     width: calc(100% / 3);
+    padding: 15px;
+    box-sizing: border-box;
   }
 }

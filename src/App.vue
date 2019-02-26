@@ -39,6 +39,8 @@ body {
 
   > h2 {
     font-size: 48px;
+    margin-top: 0;
+    margin-bottom: 44px;
   }
 
   > .row {

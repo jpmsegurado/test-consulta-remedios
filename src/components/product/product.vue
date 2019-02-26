@@ -1,11 +1,11 @@
 <template>
   <div class="product">
     <div class="image">
-      <img src="@/assets/fifa-18.png" alt="fifa 18" />
+      <img :src="require(`@/assets/${productInfo.image}`)" alt="fifa 18" />
     </div>
     <div class="info">
-      <p>Fifa 18</p>
-      <p>R$ 128,00</p>
+      <p>{{ productInfo.name }}</p>
+      <p>{{ productInfo.price }}</p>
     </div>
 
     <div class="action">
@@ -18,7 +18,13 @@
 
 <script>
 export default {
-  name: "product"
+  name: "product",
+  props: {
+    productInfo: {
+      type: Object,
+      default: () => ({})
+    }
+  }
 };
 </script>
 
