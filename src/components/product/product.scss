@@ -8,10 +8,13 @@
     width: 100%;
     box-sizing: border-box;
     border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     img {
       object-fit: contain;
-      width: 100%;
+      width: 180px;
       height: 180px;
     }
   }

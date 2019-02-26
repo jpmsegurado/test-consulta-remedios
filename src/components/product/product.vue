@@ -5,7 +5,7 @@
     </div>
     <div class="info">
       <p>{{ productInfo.name }}</p>
-      <p>{{ productInfo.price }}</p>
+      <p>{{ formatMoney(productInfo.price) }}</p>
     </div>
 
     <div class="action">
