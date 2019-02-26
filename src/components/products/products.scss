@@ -1,0 +1,9 @@
+.products {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+  > .product-wrapper {
+    width: calc(100% / 3);
+  }
+}

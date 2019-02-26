@@ -3,14 +3,27 @@
     <h2>Games</h2>
 
     <div class="row">
-      <div class="products-list"></div>
+      <div class="products-wrapper">
+        <products />
+      </div>
+
+      <div class="shopping-cart-wrapper">
+        <shopping-cart />
+      </div>
     </div>
   </div>
 </template>
 
 <script>
+import products from "./components/products/products";
+import shoppingCart from "./components/shopping-cart/shopping-cart";
+
 export default {
-  name: "app"
+  name: "app",
+  components: {
+    products,
+    shoppingCart
+  }
 };
 </script>
 
@@ -23,5 +36,23 @@ body {
 #app {
   font-family: "Open Sans";
   padding: 42px 70px;
+
+  > h2 {
+    font-size: 48px;
+  }
+
+  > .row {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+
+    .products-wrapper {
+      width: 75%;
+    }
+
+    .shopping-cart-wrapper {
+      width: 25%;
+    }
+  }
 }
 </style>
