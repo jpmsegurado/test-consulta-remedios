@@ -1,9 +1,8 @@
 <template>
   <div id="app">
-    <h2>Games</h2>
-
     <div class="row">
       <div class="products-wrapper">
+        <h2>Games</h2>
         <products />
       </div>
 
@@ -37,12 +36,6 @@ body {
   font-family: "Open Sans";
   padding: 42px 70px;
 
-  > h2 {
-    font-size: 48px;
-    margin-top: 0;
-    margin-bottom: 44px;
-  }
-
   > .row {
     display: flex;
     width: 100%;
@@ -50,6 +43,12 @@ body {
 
     .products-wrapper {
       width: 75%;
+
+      > h2 {
+        font-size: 48px;
+        margin-top: 0;
+        margin-bottom: 44px;
+      }
     }
 
     .shopping-cart-wrapper {
