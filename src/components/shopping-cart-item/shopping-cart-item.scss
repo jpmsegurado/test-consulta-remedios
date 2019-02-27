@@ -1,0 +1,72 @@
+@import "~@/variables.scss";
+
+.shopping-cart-item {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+
+  .item-image {
+    width: 60px;
+    height: 60px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    background-color: $product-bg;
+    margin-right: 10px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  .item-info {
+    width: calc(100% - 70px);
+
+    p {
+      margin: 0;
+      font-size: 14px;
+      padding-right: 20px;
+
+      &:first-of-type {
+        color: $item-cart-name;
+      }
+
+      &:last-of-type {
+        font-weight: bold;
+      }
+    }
+  }
+
+  &:hover {
+    button {
+      opacity: 1;
+    }
+  }
+
+  button {
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    margin: 0;
+    font-size: 9px;
+    color: $white;
+    border-radius: 50%;
+    border: 0;
+    outline: none;
+    background-color: $cart-button;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .3s;
+    opacity: 0;
+  }
+}
