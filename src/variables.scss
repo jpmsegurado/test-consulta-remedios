@@ -6,3 +6,11 @@ $cart-text: #746A6A;
 $item-cart-name: #7F7575;
 $white: #fff;
 $cart-button: #54A3FF;
+$select-border: #E1E1E1;
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .3s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
