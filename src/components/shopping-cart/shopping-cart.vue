@@ -1,5 +1,5 @@
 <template>
-  <div class="shopping-cart">
+  <div class="shopping-cart" :style="{ top: `${top}px` }">
     <h3>
       Carrinho <span v-if="products.length > 0">{{ productsAmount }}</span>
     </h3>
@@ -75,6 +75,22 @@ export default {
         ? `(${this.products.length} itens)`
         : "(1 item)";
     }
+  },
+  data() {
+    return {
+      doc: null,
+      top: 0
+    };
+  },
+  methods: {
+    onScroll() {
+      const top = this.doc.scrollTop;
+      this.top = top;
+    }
+  },
+  mounted() {
+    this.doc = document.querySelector("#app");
+    this.doc.addEventListener("scroll", this.onScroll);
   }
 };
 </script>

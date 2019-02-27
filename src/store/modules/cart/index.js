@@ -1,5 +1,4 @@
 import sumBy from "lodash/fp/sumBy";
-import { satisfies } from "semver";
 
 const state = {
   products: [],

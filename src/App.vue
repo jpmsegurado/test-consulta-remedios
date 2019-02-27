@@ -45,9 +45,14 @@ body {
   padding: 0;
   margin: 0;
 }
+html {
+  overflow: hidden;
+}
 #app {
   font-family: "Open Sans";
   padding: 42px 70px;
+  height: 100vh;
+  overflow: auto;
 
   > .row {
     display: flex;
