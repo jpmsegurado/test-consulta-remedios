@@ -1,34 +1,26 @@
-# test-cr
+# Consulta Jogos
 
-## Project setup
+Uma aplicação de listagem de jogos de vídeo game, buscando cumprir os requisitos listados [aqui](https://github.com/ConsultaRemedios/frontend-challenge)
+
+# Sobre o projeto
+
+As tecnologias usadas foram `Vue` e `Vuex`. Nenhum UI Kit foi utilizado.
+
+# Outras libs?
+
+apenas o `lodash`
+
+## Para instalar as dependências do projeto:
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Para rodar o projeto com livereload:
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
+### Para rodar os testes:
 ```
 npm run test
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
