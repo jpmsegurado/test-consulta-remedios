@@ -10,6 +10,12 @@
     font-size: 18px;
     font-weight: bold;
     margin: 0;
+
+    span {
+      font-weight: normal;
+      color: $item-cart-name;
+      font-size: 14px;
+    }
   }
 
   .cart-icon {
@@ -31,5 +37,35 @@
     color: $cart-text;
     margin-bottom: 98px;
     margin-top: 18px; 
+  }
+
+  .shopping-cart-item {
+    margin-top: 19px;
+    &:first-of-type {
+      margin-top: 24px;
+    }
+  }
+
+  .footer {
+    margin-top: 25px;
+    .subtotal, .total, .frete {
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 14px;
+      span {
+        color: $item-cart-name;
+      }
+
+      strong {
+        margin-left: auto;
+        margin-bottom: 17px;
+      }
+    }
+
+    .total {
+      strong {
+        font-size: 20px;
+      }
+    }
   }
 }

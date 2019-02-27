@@ -9,7 +9,7 @@
     </div>
 
     <div class="action">
-      <button>
+      <button @click="addToCart(productInfo)">
         adicionar ao carrinho
       </button>
     </div>
@@ -17,12 +17,22 @@
 </template>
 
 <script>
+import { mapActions } from "vuex";
+
 export default {
   name: "product",
   props: {
     productInfo: {
       type: Object,
       default: () => ({})
+    }
+  },
+  methods: {
+    ...mapActions({
+      addProdToCart: "CART/ADD_TO_CART"
+    }),
+    addToCart(product) {
+      this.addProdToCart(product);
     }
   }
 };
