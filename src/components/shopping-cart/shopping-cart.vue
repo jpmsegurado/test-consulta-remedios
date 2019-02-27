@@ -63,7 +63,7 @@ export default {
       const values = Object.values(grouped);
 
       return ids.map((id, index) => ({
-        id,
+        id: Number(id),
         products: values[index],
         name: values[index][0].name,
         image: values[index][0].image,

@@ -29,8 +29,11 @@ const mutations = {
     state.subtotal = subtotal;
     state.shippingCost = subtotal > 250 ? 0 : state.products.length * 10;
   },
-  REMOVE_PRODUCT: (state, index) => {
-    state.products.splice(index, 1);
+  REMOVE_PRODUCT: (state, product) => {
+    const index = state.products.findIndex(p => p.id === product.id);
+    const newProducts = [...state.products];
+    newProducts.splice(index, 1);
+    state.products = newProducts;
     const subtotal = sumBy(product => product.price)(state.products);
     state.subtotal = subtotal;
     state.shippingCost = subtotal > 250 ? 0 : state.products.length * 10;
