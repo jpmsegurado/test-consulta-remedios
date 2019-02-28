@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`shopping-cart-item.vue render shopping cart item 1`] = `
+<div class="shopping-cart-item">
+  <div class="item-image"><img src="" alt="Fifa 18"></div>
+  <div class="item-info">
+    <p>
+      Super Mario Odyssey
+
+    </p>
+    <p>R$&nbsp;197.88</p>
+  </div> <button>X</button>
+</div>
+`;
+
+exports[`shopping-cart-item.vue render shopping cart item with repeated item 1`] = `
+<div class="shopping-cart-item">
+  <div class="item-image"><img src="" alt="Fifa 18"></div>
+  <div class="item-info">
+    <p>
+      Super Mario Odyssey
+      (2x)
+    </p>
+    <p>R$&nbsp;395.76</p>
+  </div> <button>X</button>
+</div>
+`;

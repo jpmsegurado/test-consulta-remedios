@@ -1,0 +1,453 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`products.vue render products list normally 1`] = `
+<div class="products">
+  <div class="product-wrapper">
+    <div class="product">
+      <div class="image"><img src="" alt="fifa 18"></div>
+      <div class="info">
+        <p>Super Mario Odyssey</p>
+        <p>R$&nbsp;197.88</p>
+      </div>
+      <div class="action"><button>
+          adicionar ao carrinho
+        </button></div>
+    </div>
+  </div>
+  <div class="product-wrapper">
+    <div class="product">
+      <div class="image"><img src="" alt="fifa 18"></div>
+      <div class="info">
+        <p>Call Of Duty Infinite Warfare</p>
+        <p>R$&nbsp;49.99</p>
+      </div>
+      <div class="action"><button>
+          adicionar ao carrinho
+        </button></div>
+    </div>
+  </div>
+  <div class="product-wrapper">
+    <div class="product">
+      <div class="image"><img src="" alt="fifa 18"></div>
+      <div class="info">
+        <p>The Witcher III Wild Hunt</p>
+        <p>R$&nbsp;119.50</p>
+      </div>
+      <div class="action"><button>
+          adicionar ao carrinho
+        </button></div>
+    </div>
+  </div>
+  <div class="product-wrapper">
+    <div class="product">
+      <div class="image"><img src="" alt="fifa 18"></div>
+      <div class="info">
+        <p>Call Of Duty WWII</p>
+        <p>R$&nbsp;249.99</p>
+      </div>
+      <div class="action"><button>
+          adicionar ao carrinho
+        </button></div>
+    </div>
+  </div>
+  <div class="product-wrapper">
+    <div class="product">
+      <div class="image"><img src="" alt="fifa 18"></div>
+      <div class="info">
+        <p>Mortal Kombat XL</p>
+        <p>R$&nbsp;69.99</p>
+      </div>
+      <div class="action"><button>
+          adicionar ao carrinho
+        </button></div>
+    </div>
+  </div>
+  <div class="product-wrapper">
+    <div class="product">
+      <div class="image"><img src="" alt="fifa 18"></div>
+      <div class="info">
+        <p>Shards of Darkness</p>
+        <p>R$&nbsp;71.94</p>
+      </div>
+      <div class="action"><button>
+          adicionar ao carrinho
+        </button></div>
+    </div>
+  </div>
+  <div class="product-wrapper">
+    <div class="product">
+      <div class="image"><img src="" alt="fifa 18"></div>
+      <div class="info">
+        <p>Terra Média: Sombras de Mordor</p>
+        <p>R$&nbsp;79.99</p>
+      </div>
+      <div class="action"><button>
+          adicionar ao carrinho
+        </button></div>
+    </div>
+  </div>
+  <div class="product-wrapper">
+    <div class="product">
+      <div class="image"><img src="" alt="fifa 18"></div>
+      <div class="info">
+        <p>FIFA 18</p>
+        <p>R$&nbsp;195.39</p>
+      </div>
+      <div class="action"><button>
+          adicionar ao carrinho
+        </button></div>
+    </div>
+  </div>
+  <div class="product-wrapper">
+    <div class="product">
+      <div class="image"><img src="" alt="fifa 18"></div>
+      <div class="info">
+        <p>Horizon Zero Dawn</p>
+        <p>R$&nbsp;115.80</p>
+      </div>
+      <div class="action"><button>
+          adicionar ao carrinho
+        </button></div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`products.vue render products list ordered by name 1`] = `
+<div class="products">
+  <div class="product-wrapper">
+    <div class="product">
+      <div class="image"><img src="" alt="fifa 18"></div>
+      <div class="info">
+        <p>Call Of Duty Infinite Warfare</p>
+        <p>R$&nbsp;49.99</p>
+      </div>
+      <div class="action"><button>
+          adicionar ao carrinho
+        </button></div>
+    </div>
+  </div>
+  <div class="product-wrapper">
+    <div class="product">
+      <div class="image"><img src="" alt="fifa 18"></div>
+      <div class="info">
+        <p>Call Of Duty WWII</p>
+        <p>R$&nbsp;249.99</p>
+      </div>
+      <div class="action"><button>
+          adicionar ao carrinho
+        </button></div>
+    </div>
+  </div>
+  <div class="product-wrapper">
+    <div class="product">
+      <div class="image"><img src="" alt="fifa 18"></div>
+      <div class="info">
+        <p>FIFA 18</p>
+        <p>R$&nbsp;195.39</p>
+      </div>
+      <div class="action"><button>
+          adicionar ao carrinho
+        </button></div>
+    </div>
+  </div>
+  <div class="product-wrapper">
+    <div class="product">
+      <div class="image"><img src="" alt="fifa 18"></div>
+      <div class="info">
+        <p>Horizon Zero Dawn</p>
+        <p>R$&nbsp;115.80</p>
+      </div>
+      <div class="action"><button>
+          adicionar ao carrinho
+        </button></div>
+    </div>
+  </div>
+  <div class="product-wrapper">
+    <div class="product">
+      <div class="image"><img src="" alt="fifa 18"></div>
+      <div class="info">
+        <p>Mortal Kombat XL</p>
+        <p>R$&nbsp;69.99</p>
+      </div>
+      <div class="action"><button>
+          adicionar ao carrinho
+        </button></div>
+    </div>
+  </div>
+  <div class="product-wrapper">
+    <div class="product">
+      <div class="image"><img src="" alt="fifa 18"></div>
+      <div class="info">
+        <p>Shards of Darkness</p>
+        <p>R$&nbsp;71.94</p>
+      </div>
+      <div class="action"><button>
+          adicionar ao carrinho
+        </button></div>
+    </div>
+  </div>
+  <div class="product-wrapper">
+    <div class="product">
+      <div class="image"><img src="" alt="fifa 18"></div>
+      <div class="info">
+        <p>Super Mario Odyssey</p>
+        <p>R$&nbsp;197.88</p>
+      </div>
+      <div class="action"><button>
+          adicionar ao carrinho
+        </button></div>
+    </div>
+  </div>
+  <div class="product-wrapper">
+    <div class="product">
+      <div class="image"><img src="" alt="fifa 18"></div>
+      <div class="info">
+        <p>Terra Média: Sombras de Mordor</p>
+        <p>R$&nbsp;79.99</p>
+      </div>
+      <div class="action"><button>
+          adicionar ao carrinho
+        </button></div>
+    </div>
+  </div>
+  <div class="product-wrapper">
+    <div class="product">
+      <div class="image"><img src="" alt="fifa 18"></div>
+      <div class="info">
+        <p>The Witcher III Wild Hunt</p>
+        <p>R$&nbsp;119.50</p>
+      </div>
+      <div class="action"><button>
+          adicionar ao carrinho
+        </button></div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`products.vue render products list ordered by price 1`] = `
+<div class="products">
+  <div class="product-wrapper">
+    <div class="product">
+      <div class="image"><img src="" alt="fifa 18"></div>
+      <div class="info">
+        <p>Call Of Duty Infinite Warfare</p>
+        <p>R$&nbsp;49.99</p>
+      </div>
+      <div class="action"><button>
+          adicionar ao carrinho
+        </button></div>
+    </div>
+  </div>
+  <div class="product-wrapper">
+    <div class="product">
+      <div class="image"><img src="" alt="fifa 18"></div>
+      <div class="info">
+        <p>Mortal Kombat XL</p>
+        <p>R$&nbsp;69.99</p>
+      </div>
+      <div class="action"><button>
+          adicionar ao carrinho
+        </button></div>
+    </div>
+  </div>
+  <div class="product-wrapper">
+    <div class="product">
+      <div class="image"><img src="" alt="fifa 18"></div>
+      <div class="info">
+        <p>Shards of Darkness</p>
+        <p>R$&nbsp;71.94</p>
+      </div>
+      <div class="action"><button>
+          adicionar ao carrinho
+        </button></div>
+    </div>
+  </div>
+  <div class="product-wrapper">
+    <div class="product">
+      <div class="image"><img src="" alt="fifa 18"></div>
+      <div class="info">
+        <p>Terra Média: Sombras de Mordor</p>
+        <p>R$&nbsp;79.99</p>
+      </div>
+      <div class="action"><button>
+          adicionar ao carrinho
+        </button></div>
+    </div>
+  </div>
+  <div class="product-wrapper">
+    <div class="product">
+      <div class="image"><img src="" alt="fifa 18"></div>
+      <div class="info">
+        <p>Horizon Zero Dawn</p>
+        <p>R$&nbsp;115.80</p>
+      </div>
+      <div class="action"><button>
+          adicionar ao carrinho
+        </button></div>
+    </div>
+  </div>
+  <div class="product-wrapper">
+    <div class="product">
+      <div class="image"><img src="" alt="fifa 18"></div>
+      <div class="info">
+        <p>The Witcher III Wild Hunt</p>
+        <p>R$&nbsp;119.50</p>
+      </div>
+      <div class="action"><button>
+          adicionar ao carrinho
+        </button></div>
+    </div>
+  </div>
+  <div class="product-wrapper">
+    <div class="product">
+      <div class="image"><img src="" alt="fifa 18"></div>
+      <div class="info">
+        <p>FIFA 18</p>
+        <p>R$&nbsp;195.39</p>
+      </div>
+      <div class="action"><button>
+          adicionar ao carrinho
+        </button></div>
+    </div>
+  </div>
+  <div class="product-wrapper">
+    <div class="product">
+      <div class="image"><img src="" alt="fifa 18"></div>
+      <div class="info">
+        <p>Super Mario Odyssey</p>
+        <p>R$&nbsp;197.88</p>
+      </div>
+      <div class="action"><button>
+          adicionar ao carrinho
+        </button></div>
+    </div>
+  </div>
+  <div class="product-wrapper">
+    <div class="product">
+      <div class="image"><img src="" alt="fifa 18"></div>
+      <div class="info">
+        <p>Call Of Duty WWII</p>
+        <p>R$&nbsp;249.99</p>
+      </div>
+      <div class="action"><button>
+          adicionar ao carrinho
+        </button></div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`products.vue render products list ordered by score 1`] = `
+<div class="products">
+  <div class="product-wrapper">
+    <div class="product">
+      <div class="image"><img src="" alt="fifa 18"></div>
+      <div class="info">
+        <p>Terra Média: Sombras de Mordor</p>
+        <p>R$&nbsp;79.99</p>
+      </div>
+      <div class="action"><button>
+          adicionar ao carrinho
+        </button></div>
+    </div>
+  </div>
+  <div class="product-wrapper">
+    <div class="product">
+      <div class="image"><img src="" alt="fifa 18"></div>
+      <div class="info">
+        <p>Call Of Duty Infinite Warfare</p>
+        <p>R$&nbsp;49.99</p>
+      </div>
+      <div class="action"><button>
+          adicionar ao carrinho
+        </button></div>
+    </div>
+  </div>
+  <div class="product-wrapper">
+    <div class="product">
+      <div class="image"><img src="" alt="fifa 18"></div>
+      <div class="info">
+        <p>Super Mario Odyssey</p>
+        <p>R$&nbsp;197.88</p>
+      </div>
+      <div class="action"><button>
+          adicionar ao carrinho
+        </button></div>
+    </div>
+  </div>
+  <div class="product-wrapper">
+    <div class="product">
+      <div class="image"><img src="" alt="fifa 18"></div>
+      <div class="info">
+        <p>Mortal Kombat XL</p>
+        <p>R$&nbsp;69.99</p>
+      </div>
+      <div class="action"><button>
+          adicionar ao carrinho
+        </button></div>
+    </div>
+  </div>
+  <div class="product-wrapper">
+    <div class="product">
+      <div class="image"><img src="" alt="fifa 18"></div>
+      <div class="info">
+        <p>Call Of Duty WWII</p>
+        <p>R$&nbsp;249.99</p>
+      </div>
+      <div class="action"><button>
+          adicionar ao carrinho
+        </button></div>
+    </div>
+  </div>
+  <div class="product-wrapper">
+    <div class="product">
+      <div class="image"><img src="" alt="fifa 18"></div>
+      <div class="info">
+        <p>The Witcher III Wild Hunt</p>
+        <p>R$&nbsp;119.50</p>
+      </div>
+      <div class="action"><button>
+          adicionar ao carrinho
+        </button></div>
+    </div>
+  </div>
+  <div class="product-wrapper">
+    <div class="product">
+      <div class="image"><img src="" alt="fifa 18"></div>
+      <div class="info">
+        <p>Horizon Zero Dawn</p>
+        <p>R$&nbsp;115.80</p>
+      </div>
+      <div class="action"><button>
+          adicionar ao carrinho
+        </button></div>
+    </div>
+  </div>
+  <div class="product-wrapper">
+    <div class="product">
+      <div class="image"><img src="" alt="fifa 18"></div>
+      <div class="info">
+        <p>FIFA 18</p>
+        <p>R$&nbsp;195.39</p>
+      </div>
+      <div class="action"><button>
+          adicionar ao carrinho
+        </button></div>
+    </div>
+  </div>
+  <div class="product-wrapper">
+    <div class="product">
+      <div class="image"><img src="" alt="fifa 18"></div>
+      <div class="info">
+        <p>Shards of Darkness</p>
+        <p>R$&nbsp;71.94</p>
+      </div>
+      <div class="action"><button>
+          adicionar ao carrinho
+        </button></div>
+    </div>
+  </div>
+</div>
+`;

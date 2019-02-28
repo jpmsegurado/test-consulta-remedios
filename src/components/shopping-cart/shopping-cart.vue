@@ -90,7 +90,7 @@ export default {
   },
   mounted() {
     this.doc = document.querySelector("#app");
-    this.doc.addEventListener("scroll", this.onScroll);
+    if (this.doc) this.doc.addEventListener("scroll", this.onScroll);
   }
 };
 </script>
