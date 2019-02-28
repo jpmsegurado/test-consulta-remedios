@@ -3,78 +3,14 @@
 exports[`shopping-cart-item.vue render shopping cart empty state 1`] = `
 <div class="shopping-cart" style="top: 0px;">
   <h3>
-    Carrinho <span>(1 item)</span></h3>
+    Carrinho
+    <!---->
+  </h3>
+  <div class="cart-icon"><img src="@/assets/cart-icon.svg" alt="Shopping Cart"></div>
+  <p>
+    Até o momento, <br>
+    o seu carrinho está vazio
+  </p>
   <!---->
-  <div class="shopping-cart-item">
-    <div class="item-image"><img src="" alt="Fifa 18"></div>
-    <div class="item-info">
-      <p>
-        Super Mario Odyssey
-
-      </p>
-      <p>R$&nbsp;197.88</p>
-    </div> <button>X</button>
-  </div>
-  <div class="footer">
-    <div class="subtotal"><span>subtotal</span> <strong>R$&nbsp;197.88</strong></div>
-    <div class="frete"><span>frete</span> <strong>R$&nbsp;10.00</strong></div>
-    <div class="total"><span>total</span> <strong>R$&nbsp;207.88</strong></div>
-  </div>
-</div>
-`;
-
-exports[`shopping-cart-item.vue render shopping cart with one product 1`] = `
-<div class="shopping-cart" style="top: 0px;">
-  <h3>
-    Carrinho <span>(2 itens)</span></h3>
-  <!---->
-  <div class="shopping-cart-item">
-    <div class="item-image"><img src="" alt="Fifa 18"></div>
-    <div class="item-info">
-      <p>
-        Super Mario Odyssey
-        (2x)
-      </p>
-      <p>R$&nbsp;395.76</p>
-    </div> <button>X</button>
-  </div>
-  <div class="footer">
-    <div class="subtotal"><span>subtotal</span> <strong>R$&nbsp;395.76</strong></div>
-    <div class="frete"><span>frete</span> <strong>R$&nbsp;0.00</strong></div>
-    <div class="total"><span>total</span> <strong>R$&nbsp;395.76</strong></div>
-  </div>
-</div>
-`;
-
-exports[`shopping-cart-item.vue render shopping cart with repeated products 1`] = `
-<div class="shopping-cart" style="top: 0px;">
-  <h3>
-    Carrinho <span>(5 itens)</span></h3>
-  <!---->
-  <div class="shopping-cart-item">
-    <div class="item-image"><img src="" alt="Fifa 18"></div>
-    <div class="item-info">
-      <p>
-        Call Of Duty Infinite Warfare
-
-      </p>
-      <p>R$&nbsp;49.99</p>
-    </div> <button>X</button>
-  </div>
-  <div class="shopping-cart-item">
-    <div class="item-image"><img src="" alt="Fifa 18"></div>
-    <div class="item-info">
-      <p>
-        Super Mario Odyssey
-        (4x)
-      </p>
-      <p>R$&nbsp;791.52</p>
-    </div> <button>X</button>
-  </div>
-  <div class="footer">
-    <div class="subtotal"><span>subtotal</span> <strong>R$&nbsp;841.51</strong></div>
-    <div class="frete"><span>frete</span> <strong>R$&nbsp;0.00</strong></div>
-    <div class="total"><span>total</span> <strong>R$&nbsp;841.51</strong></div>
-  </div>
 </div>
 `;
