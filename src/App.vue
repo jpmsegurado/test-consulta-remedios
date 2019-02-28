@@ -53,6 +53,7 @@ html {
   padding: 42px 70px;
   height: 100vh;
   overflow: auto;
+  box-sizing: border-box;
 
   > .row {
     display: flex;
